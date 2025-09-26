@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-const prefix = "movie";
+const prefix = "moviewatchlist";
 
 export default function useLocalStoragehook(key, initialvalue){
   const prefixedkey = prefix + key;
